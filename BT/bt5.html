@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bt5</title>
+    </head>
+    <body>
+        <h2>Đăng ký hộc viên</h2>
+        <form action="">
+            <!-- Họ và tên -->
+            <div class="form-control">
+                <label for="">Họ và tên:</label>
+                <input type="text">
+            </div>
+            <!-- Ngày sinh -->
+            <div>
+                <label for="">Ngày sinh:</label>
+                <input type="date" id="birthday">
+            </div>
+            <!-- Giới tính -->
+            <div>
+                <label for="">Giới tính:</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Nam:</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Nữ</label>
+            </div>
+            <!-- Địa chỉ -->
+            <div>
+                <label for="address">Địa chỉ:</label>
+                <textarea name="address" id="address"></textarea>
+            </div>
+            <!-- Lớp -->
+            <div>
+                <label for="">Lớp:</label>
+                <select name="class" id="class">
+                    <option value="">
+                        --Chọn lớp--
+                    </option>
+                    <option value="10A">10A</option>
+                    <option value="10B">10B</option>
+                </select>
+            </div>
+            <!-- Email  -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email">
+            </div>
+            <!-- Điện thoại -->
+            <div>
+                <label for="phone">Số điện thoại:</label>
+                <input type="tel">
+            </div>
+            <!-- Đăng ký và Nhập lại -->
+            <div>
+                <button type="submit">Đăng Ký</button>
+                <button type="reset">Nhập Lại</button>
+            </div>
+        </form>
+    </body>
+</html>
